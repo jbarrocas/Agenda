@@ -50,7 +50,7 @@ function openPopup(id){
     .then(data => {
         // let contactDetail="";
         let elem = data;        
-        contactDetail = `<div id="detailContent"><h2>nome: ${elem.name}</h2><p>Telefone: ${elem.telefone}</p><p>Email: ${elem.email}</p><p>Cidade: ${elem.cidade}</div> `;        
+        contactDetail = `<div id="detailContent"><h2>nome: ${elem.name}</h2><p>Telefone: ${elem.telefone}</p><p>Email: ${elem.email}</p><p>Cidade: ${elem.cidade}</p></div> `;        
 
         popup.innerHTML = popup.innerHTML + contactDetail;
 
